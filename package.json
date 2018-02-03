@@ -1,0 +1,36 @@
+{
+  "name": "re-allure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --optimize-minimize",
+    "start": "webpack-dev-server --inline --hot --env.development",
+    "pretest": "eslint --ignore-path=.gitignore .",
+    "test": "jest",
+    "test:watch": "jest --colors --watch",
+    "coverage": "jest --coverage --collectCoverageFrom=src/main/javascript/**/*.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "case-sensitive-paths-webpack-plugin": "^2.1.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^3.4.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "@types/webpack-env": "^1.13.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Common suite",
+    "children" : [ {
+      "name" : "Allure tests",
+      "children" : [ {
+        "name" : "io.github.sskorol.testcases.common.CommonTests",
+        "children" : [ {
+          "name" : "loginWithRegisteredUser",
+          "uid" : "fc3739152e4ba13c",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1495892654510,
+            "stop" : 1495892654554,
+            "duration" : 44
+          },
+          "flaky" : false,
+          "parameters" : [ "User(username=dummyUsername, password=dummyPassword)" ]
+        }, {
+          "name" : "shouldDisplayUserBalance",
+          "uid" : "a5ffb2f1d530f9a7",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1495892654569,
+            "stop" : 1495892654575,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "parameters" : [ "User(username=dummyUsername, password=dummyPassword)" ]
+        }, {
+          "name" : "shouldFailOnAssertion",
+          "uid" : "5913341bdec95dd9",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "failed",
+          "time" : {
+            "start" : 1495892654581,
+            "stop" : 1495892654707,
+            "duration" : 126
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldFailOnAssertionSubStep",
+          "uid" : "c45ef3f04f984e3f",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "failed",
+          "time" : {
+            "start" : 1495892654715,
+            "stop" : 1495892654719,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldFailOnSubStep",
+          "uid" : "bc6529f1829c5f81",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1495892654746,
+            "stop" : 1495892654750,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "shouldThrowUnhandledException",
+          "uid" : "3c93fb3e45e1f9b6",
+          "parentUid" : "87ad0976b68c930eab55b5838ac4b46e",
+          "status" : "broken",
+          "time" : {
+            "start" : 1495892654767,
+            "stop" : 1495892654768,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "87ad0976b68c930eab55b5838ac4b46e"
+      } ],
+      "uid" : "63bef62e85ab7461c8da5e8a345d4dcd"
+    } ],
+    "uid" : "10d97cce56a5f213d307d8d19e8385f7"
+  }, {
+    "name" : "Method configuration failure",
+    "children" : [ {
+      "name" : "Allure tests",
+      "children" : [ {
+        "name" : "io.github.sskorol.testcases.configuration.BeforeMethodConfigurationFailureTests",
+        "children" : [ {
+          "name" : "shouldNotBeExecutedDueToMethodConfigurationFailure",
+          "uid" : "9532091d77bb41b9",
+          "parentUid" : "66d3c83ec427db82c1bd9751acfe8ca4",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1495892654788,
+            "stop" : 1495892654792,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "66d3c83ec427db82c1bd9751acfe8ca4"
+      } ],
+      "uid" : "ffe7086b36527bccb4bdbef3be33a737"
+    } ],
+    "uid" : "ebf0b5c1bc1960a009f9698c19829c43"
+  } ],
+  "name" : "suites"
+}
