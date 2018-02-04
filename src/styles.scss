@@ -1,0 +1,39 @@
+@import "./variables";
+
+body {
+  color: $text-color;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 14px;
+  margin: 0;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.long-line {
+  word-break: break-word;
+}
+
+.line-nobreak {
+  white-space: nowrap;
+}
+
+.preformated-text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.line-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
