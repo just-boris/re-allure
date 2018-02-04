@@ -1,0 +1,10 @@
+.SuitesView {
+  display: flex;
+  padding: 0 20px;
+  height: 100vh;
+  overflow: auto;
+  & > * {
+    flex: 1;
+    min-width: 0;
+  }
+}

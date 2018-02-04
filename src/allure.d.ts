@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
+import { ReactChild } from "react";
 
 interface TabConfiguration {
   tabId: string;
   title: string;
   icon?: string;
   route: string;
-  render: () => ReactElement<any>;
+  render: () => ReactChild;
 }
 
 interface AllurePlugins {
