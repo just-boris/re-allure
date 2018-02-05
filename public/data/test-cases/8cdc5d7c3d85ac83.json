@@ -1,0 +1,120 @@
+{
+  "uid" : "8cdc5d7c3d85ac83",
+  "name" : "testFour",
+  "fullName" : "my.company.AlwaysPassingTest.testFour",
+  "historyId" : "8b6d2d46c6c6c3e82eaea4fd4cd550d",
+  "time" : {
+    "start" : 1412949539363,
+    "stop" : 1412949539730,
+    "duration" : 367
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SimpleStories"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "issue",
+    "value" : "JIRA-1"
+  }, {
+    "name" : "issue",
+    "value" : "JIRA-2"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "testId",
+    "value" : "TMS-1"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-4"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFour"
+  }, {
+    "name" : "package",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ { }, {
+    "name" : "first"
+  }, {
+    "name" : "second",
+    "value" : "some-value"
+  }, {
+    "name" : "third"
+  } ],
+  "links" : [ {
+    "name" : "JIRA-1",
+    "url" : "JIRA-1",
+    "type" : "issue"
+  }, {
+    "name" : "JIRA-2",
+    "url" : "JIRA-2",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-1",
+    "url" : "TMS-1",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 3,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8b4d32782c3b255a",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/8b4d32782c3b255a",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539730,
+          "duration" : 367
+        }
+      }, {
+        "uid" : "9fb187a529aa9f52",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/9fb187a529aa9f52",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539730,
+          "duration" : 367
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8cdc5d7c3d85ac83.json",
+  "parameterValues" : [ null, null, "some-value", null ]
+}

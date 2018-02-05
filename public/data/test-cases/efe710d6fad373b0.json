@@ -1,0 +1,182 @@
+{
+  "uid" : "efe710d6fad373b0",
+  "name" : "Page loading test",
+  "fullName" : "my.company.ScreenshotTest.pageLoadingTest",
+  "historyId" : "d83c2f8379a76891eb37c6d8d889a3ce",
+  "time" : {
+    "start" : 1412949551164,
+    "stop" : 1412949556298,
+    "duration" : 5134
+  },
+  "description" : "\n### H3\nafter this line we should collapse all of that\n\nвавыа\n#### H4\nThis testsuite has tests what *always are passing*\n\n* first\n* second\n    1. subsecind\n    1. subsubsecind\n* third",
+  "descriptionHtml" : "<h3>H3</h3>\n<p>after this line we should collapse all of that</p>\n<p>вавыа</p>\n<h4>H4</h4>\n<p>This testsuite has tests what <em>always are passing</em></p>\n<ul>\n<li>first</li>\n<li>second\n<ol>\n<li>subsecind</li>\n<li>subsubsecind</li>\n</ol>\n</li>\n<li>third</li>\n</ul>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"",
+  "statusTrace" : "java.lang.AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:865)\n\tat my.company.steps.WebDriverSteps.checkText(WebDriverSteps.java:47)\n\tat my.company.ScreenshotTest.pageLoadingTest(ScreenshotTest.java:40)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:601)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:166)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:722)\n",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"",
+    "statusTrace" : "java.lang.AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:865)\n\tat my.company.steps.WebDriverSteps.checkText(WebDriverSteps.java:47)\n\tat my.company.ScreenshotTest.pageLoadingTest(ScreenshotTest.java:40)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:601)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:166)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:722)\n",
+    "steps" : [ {
+      "name" : "openMainPage",
+      "time" : {
+        "start" : 1412949554710,
+        "stop" : 1412949555508,
+        "duration" : 798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "findElement[title]",
+      "time" : {
+        "start" : 1412949555663,
+        "stop" : 1412949555679,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Check text in element",
+      "time" : {
+        "start" : 1412949555680,
+        "stop" : 1412949555733,
+        "duration" : 53
+      },
+      "status" : "failed",
+      "statusMessage" : "java.lang.AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.junit.Assert.assertThat(Assert.java:865)\n\tat my.company.steps.WebDriverSteps.checkText(WebDriverSteps.java:47)\n\tat my.company.ScreenshotTest.pageLoadingTest(ScreenshotTest.java:40)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:601)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:166)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:722)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3a4bad440d37c551",
+      "name" : "Server Log",
+      "source" : "3a4bad440d37c551.txt",
+      "type" : "text/plain",
+      "size" : 18
+    }, {
+      "uid" : "979592f7c58f21f7",
+      "name" : "Response",
+      "source" : "979592f7c58f21f7.json",
+      "type" : "application/json",
+      "size" : 51
+    }, {
+      "uid" : "ce8aeee8d55cd493",
+      "name" : "Page Screenshot",
+      "source" : "ce8aeee8d55cd493.png",
+      "type" : "image/png",
+      "size" : 16100
+    }, {
+      "uid" : "9f5d979b58c0c84b",
+      "name" : "URI Attachment",
+      "source" : "9f5d979b58c0c84b.uri",
+      "type" : "text/uri-list",
+      "size" : 145
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Screenshot"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "WebdriverScreenshot"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-22"
+  }, {
+    "name" : "suite",
+    "value" : "Search tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.ScreenshotTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "pageLoadingTest"
+  }, {
+    "name" : "package",
+    "value" : "my.company.ScreenshotTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f489a802f4a742f9",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/f489a802f4a742f9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949556298,
+          "duration" : 5134
+        }
+      }, {
+        "uid" : "b23b7ed47b1a8f68",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/b23b7ed47b1a8f68",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949556298,
+          "duration" : 5134
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efe710d6fad373b0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "de32faa3d8901801",
+  "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+  "fullName" : "my.company.AllureMigrationTest.AllureOldDataTest",
+  "historyId" : "a529591490936e126a2bd0fd4d58c236",
+  "time" : {
+    "start" : 1412949953580,
+    "stop" : 1412949953780,
+    "duration" : 200
+  },
+  "description" : "I hate descriptions! See the title!",
+  "descriptionHtml" : "<p>I hate descriptions! See the title!</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SimpleStories"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "AllureOldDataTest"
+  }, {
+    "name" : "package",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "47566283667aafe4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 0,
+        "stop" : 0,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4373cfb13bba3b1b",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/4373cfb13bba3b1b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1412949953580,
+          "stop" : 1412949953780,
+          "duration" : 200
+        }
+      }, {
+        "uid" : "e55a8ab8517d4b4f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/e55a8ab8517d4b4f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1412949953580,
+          "stop" : 1412949953780,
+          "duration" : 200
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "de32faa3d8901801.json",
+  "parameterValues" : [ ]
+}

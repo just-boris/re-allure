@@ -17,7 +17,9 @@ const Node: React.SFC<{ suite: AllureSuite }> = ({ suite }) => {
   }
   return (
     <div className={b("node")}>
-      <NavLink to={`/suites/${suite.uid}`}>{suite.name}</NavLink>
+      <NavLink className={b("item")} activeClassName={`${b("item")}_active`} to={`/suites/${suite.uid}`}>
+        {suite.name}
+      </NavLink>
     </div>
   );
 };

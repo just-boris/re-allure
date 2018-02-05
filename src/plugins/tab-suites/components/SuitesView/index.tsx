@@ -19,7 +19,7 @@ export default class SuitesView extends React.Component<SuitesViewProps, SuitesV
   state: SuitesViewState = {};
 
   async componentDidMount() {
-    const { data } = await axios.get("suites.json");
+    const { data } = await axios.get("data/suites.json");
     this.setState({
       rootSuite: data
     });
@@ -33,8 +33,15 @@ export default class SuitesView extends React.Component<SuitesViewProps, SuitesV
 
     return (
       <div className={b()}>
-        <SuitesTree suite={rootSuite} />
-        <Route path="/suites/:resultUid" render={(props) => <SuiteResultView resultUid={props.match.params.resultUid} />} />
+        <div className={b("panel")}>
+            <SuitesTree suite={rootSuite} />
+        </div>
+        <div className={b("panel")}>
+            <Route
+                path="/suites/:resultUid"
+                render={props => <SuiteResultView resultUid={props.match.params.resultUid} />}
+            />
+        </div>
       </div>
     );
   }

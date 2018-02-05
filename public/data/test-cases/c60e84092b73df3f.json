@@ -1,0 +1,91 @@
+{
+  "uid" : "c60e84092b73df3f",
+  "name" : "testPassed",
+  "fullName" : "other.PassingTest.testPassed",
+  "historyId" : "6a7f6d7c554ed5fca751cfc5cea1264f",
+  "time" : {
+    "start" : 1412949529363,
+    "stop" : 1412949549730,
+    "duration" : 20367
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "issue",
+    "value" : "JIRA-15"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "testId",
+    "value" : "TMS-1"
+  }, {
+    "name" : "suite",
+    "value" : "other.PassingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "other.PassingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testPassed"
+  }, {
+    "name" : "package",
+    "value" : "other.PassingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "JIRA-15",
+    "url" : "JIRA-15",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-1",
+    "url" : "TMS-1",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "7f9a7eb8bdc990f3",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/7f9a7eb8bdc990f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949529363,
+          "stop" : 1412949549730,
+          "duration" : 20367
+        }
+      }, {
+        "uid" : "87daabcd192dda69",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/87daabcd192dda69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949529363,
+          "stop" : 1412949549730,
+          "duration" : 20367
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c60e84092b73df3f.json",
+  "parameterValues" : [ ]
+}

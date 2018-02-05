@@ -1,5 +1,19 @@
+@import "../../../../variables";
+
 .SuitesTree {
   &__node {
     margin-left: 20px;
+  }
+  &__item {
+    display: block;
+    text-decoration: none;
+    color: $link-color;
+    padding: 5px 15px;
+    &:hover {
+      background: $hover-color;
+    }
+    &_active {
+      background: $selected-color;
+    }
   }
 }

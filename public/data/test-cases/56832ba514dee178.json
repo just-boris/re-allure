@@ -1,0 +1,114 @@
+{
+  "uid" : "56832ba514dee178",
+  "name" : "testOne",
+  "fullName" : "my.company.AlwaysPassingTest.testOne",
+  "historyId" : "974244cc45b28b57b6cf91e585ad0e51",
+  "time" : {
+    "start" : 1412949539363,
+    "stop" : 1412949539715,
+    "duration" : 352
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SimpleStories"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "testId",
+    "value" : "TMS-1"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-1"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOne"
+  }, {
+    "name" : "package",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "jkasdkjas jkfbasdjkfb jlasbdfj                  kajsndkjan JKDNJaksn da                  daskjdb jkansdkjn aklsNDK aklsd                  kajsBDKJanjks dnkjasnBJKD JKAsnd kla                  naskjdbkjs DJKASN KJDNKJ ANSKLD a                  dsdnfkjsdnJFKNASJKFNKJ SANDFJK ASDNLKFN ASKLDF                  AJKSDNLK Asjdklajskl djkasBFKJsdbnfkladsnklfmdskl fnasdmnf                  sDFKASBDKJFN AKJSDNFKJ ANSDJKFNJK SADNKLFNASDKL NFKJASDNF basdljfb asbdfmb asdljbfl sabdlnfblkasd blfkbasdlk fbknasdbkfl as"
+  }, {
+    "name" : "arg1",
+    "value" : "jkasdbkfj asdkjlf jksadbfjnbsnfjksdfkl jdksfghjegkfn kasfm anskdfnkasf"
+  }, {
+    "name" : "arg2",
+    "value" : "kjb jabsjfdb ajksnbdfk nasjkdfba kdsnbknasdn kjfsdlfn kjasd f nakls dfnasdf"
+  }, {
+    "name" : "arg3",
+    "value" : "njkasndka bsanf asbdfbk jsadnf;kasnjdfb sadkfnkadjs nf;kas ndf;kjasdf"
+  }, {
+    "name" : "arg4",
+    "value" : "kjnjdnfksdf sdf"
+  } ],
+  "links" : [ {
+    "name" : "TMS-1",
+    "url" : "TMS-1",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "abd62039f679a98d",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/abd62039f679a98d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539715,
+          "duration" : 352
+        }
+      }, {
+        "uid" : "586cdec6ce3363f5",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/586cdec6ce3363f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539715,
+          "duration" : 352
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56832ba514dee178.json",
+  "parameterValues" : [ "jkasdkjas jkfbasdjkfb jlasbdfj                  kajsndkjan JKDNJaksn da                  daskjdb jkansdkjn aklsNDK aklsd                  kajsBDKJanjks dnkjasnBJKD JKAsnd kla                  naskjdbkjs DJKASN KJDNKJ ANSKLD a                  dsdnfkjsdnJFKNASJKFNKJ SANDFJK ASDNLKFN ASKLDF                  AJKSDNLK Asjdklajskl djkasBFKJsdbnfkladsnklfmdskl fnasdmnf                  sDFKASBDKJFN AKJSDNFKJ ANSDJKFNJK SADNKLFNASDKL NFKJASDNF basdljfb asbdfmb asdljbfl sabdlnfblkasd blfkbasdlk fbknasdbkfl as", "jkasdbkfj asdkjlf jksadbfjnbsnfjksdfkl jdksfghjegkfn kasfm anskdfnkasf", "kjb jabsjfdb ajksnbdfk nasjkdfba kdsnbknasdn kjfsdlfn kjasd f nakls dfnasdf", "njkasndka bsanf asbdfbk jsadnf;kasnjdfb sadkfnkadjs nf;kas ndf;kjasdf", "kjnjdnfksdf sdf" ]
+}

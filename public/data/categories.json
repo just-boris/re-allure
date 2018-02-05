@@ -1,0 +1,169 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Infrastructure problems",
+    "children" : [ {
+      "name" : "RuntimeException: bye-bye",
+      "children" : [ {
+        "name" : "BeforeClassFailTest",
+        "uid" : "fa8043e255c59a78",
+        "parentUid" : "5a8c1dafc41d905fb61ce61882f1e47d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949539770,
+          "stop" : 1412949539779,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a8c1dafc41d905fb61ce61882f1e47d"
+    } ],
+    "uid" : "280a13d31e49bebc16a96b51fd556410"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+      "children" : [ {
+        "name" : "<script>3443</script>",
+        "uid" : "da344990f19e12f5",
+        "parentUid" : "0f04be9969651f201e5f97bed6204da3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949539794,
+          "stop" : 1412949540559,
+          "duration" : 765
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f04be9969651f201e5f97bed6204da3"
+    }, {
+      "name" : "AssertionError: \nExpected: \"{\\n\\\"name\\\": \\\"test\\\",\\n\\\"value\\\": \\\"ok value\\\"\\n}\"\n     but: was \"{\\n\\\"name\\\": \\\"test\\\",\\n\\\"value\\\": \\\"bad value\\\"\\n}\"",
+      "children" : [ {
+        "name" : "Test with long assertion text",
+        "uid" : "deef7310f64e7d28",
+        "parentUid" : "7de3af51bba611a38d34ef5f5e363d10",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949539800,
+          "stop" : 1412949540461,
+          "duration" : 661
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7de3af51bba611a38d34ef5f5e363d10"
+    }, {
+      "name" : "AssertionError: Text on current page should be correct\nExpected: element text is \"Yandex\"\n     but: <[[PhantomJSDriver: phantomjs on MAC (9e679b20-5085-11e4-ad6d-87edf8da84a7)] -> css selector: title]> text is \"\"",
+      "children" : [ {
+        "name" : "Page loading test",
+        "uid" : "efe710d6fad373b0",
+        "parentUid" : "57b32020e228ce747f455e8a7480696d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949556298,
+          "duration" : 5134
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57b32020e228ce747f455e8a7480696d"
+    }, {
+      "name" : "AssertionError: 5 is not 2 + 2\nExpected: is <4>\n     but: was <5>",
+      "children" : [ {
+        "name" : "failedSimpleTest",
+        "uid" : "b42aed24ea7aff75",
+        "parentUid" : "7a0988b49b2eace410618c676ba07809",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949558829,
+          "stop" : 1412949558830,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a0988b49b2eace410618c676ba07809"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Outdated tests",
+    "children" : [ {
+      "name" : "FileNotFoundException: No file found.",
+      "children" : [ {
+        "name" : "lotOfStepsTest",
+        "uid" : "3770e01f9d11c5b1",
+        "parentUid" : "d1667c8df26638c563b4c559f1d2de36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949539801,
+          "stop" : 1412949539862,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1667c8df26638c563b4c559f1d2de36"
+    } ],
+    "uid" : "1b28e34cc35c93fe292bfc10f7c5ff01"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: Невероятная проблема!",
+      "children" : [ {
+        "name" : "test_raise_cyrilling (невероятный тест кодировки!)",
+        "uid" : "12d83bcc9236ab05",
+        "parentUid" : "0219f4dba88a05bc5a1c91b884455b10",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949540562,
+          "stop" : 1412949540660,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0219f4dba88a05bc5a1c91b884455b10"
+    }, {
+      "name" : "ArrayIndexOutOfBoundsException: 1",
+      "children" : [ {
+        "name" : "brokenSimpleTest",
+        "uid" : "4f054b3efb6f85ca",
+        "parentUid" : "d58b736c72335c88d818acdb9b5c69c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949558829,
+          "stop" : 1412949558832,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d58b736c72335c88d818acdb9b5c69c2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Ignored tests",
+    "children" : [ {
+      "name" : "Test ignored (without reason)!",
+      "children" : [ {
+        "name" : "skippedSimpleTest",
+        "uid" : "23f7451bbdc8dcd3",
+        "parentUid" : "0efcfb9587fcac767cad84d275eacea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1412949558831,
+          "stop" : 1412949558832,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0efcfb9587fcac767cad84d275eacea0"
+    } ],
+    "uid" : "de462066317a26259da5dbde82325643"
+  } ]
+}

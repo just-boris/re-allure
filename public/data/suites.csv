@@ -1,0 +1,96 @@
+"Status","Name","Duration in ms","Description"
+"broken","my.company.BeforeClassFailTest.my.company.BeforeClassFailTest","9",""
+"failed","my.company.ManyInfoTest.attachmentsTest","765","Testsuite has testcases with many steps
+    and
+many lines in description
+
+Single-line description"
+"broken","my.company.ManyInfoTest.lotOfStepsTest","61","Testsuite has testcases with many steps
+    and
+many lines in description
+
+I have many steps 
+
+    Parent Step 
+    Last 
+    MakeThisTestBroken"
+"failed","my.company.ScreenshotTest.pageLoadingTest","5134","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","my.company.ScreenshotTest.emptyTextSearch","7180","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"passed","my.company.NonAsciiTest.test_pass","3","Этот тест проходит"
+"passed","my.company.AlwaysPassingTest.testTwo","9",""
+"passed","my.company.ScreenshotTest.wildcardSearch","7573","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third
+
+### h3 *italic* **bold**
+allure core ![https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat](https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat)
+[repository](https://github.com/allure-framework/allure-core)
+
+just http://yandex.ru
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"failed","my.company.ManyInfoTest.longAssertionTest","661","Testsuite has testcases with many steps
+    and
+many lines in description"
+"broken","my.company.NonAsciiTest.test_raise_cyrilling","98","Этот тест выкидывает исключение с русскими буквами"
+"passed","my.company.SimpleTest.longTitleTest","0","I hate descriptions! See the title!"
+"unknown","my.company.AlwaysPassingTest.testThree","382",""
+"skipped","my.company.AllureMigrationTest.AllureOldDataTest","200","I hate descriptions! See the title!"
+"failed","my.company.SimpleTest.failedSimpleTest","1",""
+"broken","my.company.SimpleTest.brokenSimpleTest","3",""
+"passed","my.company.CustomWidgetPageTest.open widget page","11945",""
+"passed","other.PassingTest.testPassed","20367",""
+"passed","my.company.ScreenshotTest.usualSearch","7662","
+### H3
+after this line we should collapse all of that
+
+вавыа
+#### H4
+This testsuite has tests what *always are passing*
+
+* first
+* second
+    1. subsecind
+    1. subsubsecind
+* third"
+"unknown","my.company.AlwaysPassingTest.testFour","367",""
+"skipped","my.company.SimpleTest.my.company.SimpleTest","1",""
+"passed","my.company.AlwaysPassingTest.testOne","352",""

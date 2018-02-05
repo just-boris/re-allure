@@ -1,0 +1,52 @@
+{
+  "uid" : "47566283667aafe4",
+  "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+  "fullName" : "my.company.AllureMigrationTest.AllureOldDataTest",
+  "historyId" : "a529591490936e126a2bd0fd4d58c236",
+  "time" : {
+    "start" : 0,
+    "stop" : 0,
+    "duration" : 0
+  },
+  "description" : "I hate descriptions! See the title!",
+  "descriptionHtml" : "<p>I hate descriptions! See the title!</p>\n",
+  "status" : "skipped",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SimpleStories"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "AllureOldDataTest"
+  }, {
+    "name" : "package",
+    "value" : "my.company.AllureMigrationTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47566283667aafe4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+"Category","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Product defects","4","0","0","0","0"
+"Test defects","0","2","0","0","0"
+"Infrastructure problems","0","1","0","0","0"
+"Outdated tests","0","1","0","0","0"
+"Ignored tests","0","0","0","1","0"

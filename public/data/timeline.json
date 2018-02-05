@@ -1,0 +1,329 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "BeforeClassFailTest",
+    "uid" : "fa8043e255c59a78",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1412949539770,
+      "stop" : 1412949539779,
+      "duration" : 9
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "my.cool.host.com",
+    "children" : [ {
+      "name" : "pool-1-thread-5",
+      "children" : [ {
+        "name" : "<script>3443</script>",
+        "uid" : "da344990f19e12f5",
+        "parentUid" : "7e92dd89e808524e563e5614e00815d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949539794,
+          "stop" : 1412949540559,
+          "duration" : 765
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e92dd89e808524e563e5614e00815d7"
+    }, {
+      "name" : "pool-1-thread-7",
+      "children" : [ {
+        "name" : "lotOfStepsTest",
+        "uid" : "3770e01f9d11c5b1",
+        "parentUid" : "34a827fc528916f724043ce42469a64b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949539801,
+          "stop" : 1412949539862,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34a827fc528916f724043ce42469a64b"
+    }, {
+      "name" : "pool-1-thread-22",
+      "children" : [ {
+        "name" : "Page loading test",
+        "uid" : "efe710d6fad373b0",
+        "parentUid" : "46826212158f06b3274145b751eda419",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949556298,
+          "duration" : 5134
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46826212158f06b3274145b751eda419"
+    }, {
+      "name" : "pool-1-thread-14",
+      "children" : [ {
+        "name" : "Empty text search",
+        "uid" : "7367f4d51ddc2f6d",
+        "parentUid" : "a03441993763187b97467caf361d4025",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949558344,
+          "duration" : 7180
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a03441993763187b97467caf361d4025"
+    }, {
+      "name" : "pool-1-thread-9",
+      "children" : [ {
+        "name" : "test_pass",
+        "uid" : "97f7e472f27d22d7",
+        "parentUid" : "6d44436862184e56f209cf87e59a93cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949540562,
+          "stop" : 1412949540565,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+        "uid" : "f10c7471127fa4a9",
+        "parentUid" : "6d44436862184e56f209cf87e59a93cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949558829,
+          "stop" : 1412949558829,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d44436862184e56f209cf87e59a93cf"
+    }, {
+      "name" : "pool-1-thread-2",
+      "children" : [ {
+        "name" : "testTwo",
+        "uid" : "2451bec2e53f2bc1",
+        "parentUid" : "18e1c9da54fb8b0701a09b94b6b5d059",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539372,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18e1c9da54fb8b0701a09b94b6b5d059"
+    }, {
+      "name" : "pool-1-thread-11",
+      "children" : [ {
+        "name" : "Wildcard search test",
+        "uid" : "577e31f2c96a36c6",
+        "parentUid" : "f1242c1e2e94096013e6963752b27c0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949558737,
+          "duration" : 7573
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1242c1e2e94096013e6963752b27c0a"
+    }, {
+      "name" : "pool-1-thread-6",
+      "children" : [ {
+        "name" : "Test with long assertion text",
+        "uid" : "deef7310f64e7d28",
+        "parentUid" : "1e473efe6b4705719604f18d046767c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949539800,
+          "stop" : 1412949540461,
+          "duration" : 661
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e473efe6b4705719604f18d046767c1"
+    }, {
+      "name" : "pool-1-thread-8",
+      "children" : [ {
+        "name" : "test_raise_cyrilling (невероятный тест кодировки!)",
+        "uid" : "12d83bcc9236ab05",
+        "parentUid" : "388154b05f99fecb47304c2d41905a63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949540562,
+          "stop" : 1412949540660,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "388154b05f99fecb47304c2d41905a63"
+    }, {
+      "name" : "pool-1-thread-3",
+      "children" : [ {
+        "name" : "testThree",
+        "uid" : "3d50ef5cea8f8ca9",
+        "parentUid" : "49a36bb293d909d9e32aaafa3ae6d7ab",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539364,
+          "stop" : 1412949539746,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49a36bb293d909d9e32aaafa3ae6d7ab"
+    }, {
+      "name" : "pool-1-thread-27",
+      "children" : [ {
+        "name" : "failedSimpleTest",
+        "uid" : "b42aed24ea7aff75",
+        "parentUid" : "861388f557d3f7d94ee2c68edef48b6e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1412949558829,
+          "stop" : 1412949558830,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "861388f557d3f7d94ee2c68edef48b6e"
+    }, {
+      "name" : "pool-1-thread-25",
+      "children" : [ {
+        "name" : "brokenSimpleTest",
+        "uid" : "4f054b3efb6f85ca",
+        "parentUid" : "a4c34eb4462fc3432c60ca302b9ae3b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1412949558829,
+          "stop" : 1412949558832,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4c34eb4462fc3432c60ca302b9ae3b7"
+    }, {
+      "name" : "pool-1-thread-18",
+      "children" : [ {
+        "name" : "Usual search test",
+        "uid" : "c76b864a132e4092",
+        "parentUid" : "12dec3a9db614e33ec11f7661f1e65f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949558826,
+          "duration" : 7662
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12dec3a9db614e33ec11f7661f1e65f1"
+    }, {
+      "name" : "pool-1-thread-4",
+      "children" : [ {
+        "name" : "testFour",
+        "uid" : "8cdc5d7c3d85ac83",
+        "parentUid" : "85ab2b0ff49e204f95ed38cbe66c6e6e",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539730,
+          "duration" : 367
+        },
+        "flaky" : false,
+        "parameters" : [ null, null, "some-value", null ]
+      } ],
+      "uid" : "85ab2b0ff49e204f95ed38cbe66c6e6e"
+    }, {
+      "name" : "pool-1-thread-1",
+      "children" : [ {
+        "name" : "testOne",
+        "uid" : "56832ba514dee178",
+        "parentUid" : "5df7b53014a1eeb38a655f7faf533477",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949539363,
+          "stop" : 1412949539715,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "parameters" : [ "jkasdkjas jkfbasdjkfb jlasbdfj                  kajsndkjan JKDNJaksn da                  daskjdb jkansdkjn aklsNDK aklsd                  kajsBDKJanjks dnkjasnBJKD JKAsnd kla                  naskjdbkjs DJKASN KJDNKJ ANSKLD a                  dsdnfkjsdnJFKNASJKFNKJ SANDFJK ASDNLKFN ASKLDF                  AJKSDNLK Asjdklajskl djkasBFKJsdbnfkladsnklfmdskl fnasdmnf                  sDFKASBDKJFN AKJSDNFKJ ANSDJKFNJK SADNKLFNASDKL NFKJASDNF basdljfb asbdfmb asdljbfl sabdlnfblkasd blfkbasdlk fbknasdbkfl as", "jkasdbkfj asdkjlf jksadbfjnbsnfjksdfkl jdksfghjegkfn kasfm anskdfnkasf", "kjb jabsjfdb ajksnbdfk nasjkdfba kdsnbknasdn kjfsdlfn kjasd f nakls dfnasdf", "njkasndka bsanf asbdfbk jsadnf;kasnjdfb sadkfnkadjs nf;kas ndf;kjasdf", "kjnjdnfksdf sdf" ]
+      } ],
+      "uid" : "5df7b53014a1eeb38a655f7faf533477"
+    } ],
+    "uid" : "1f09d31277c6d064fe26e286d2b4bf08"
+  }, {
+    "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+    "uid" : "de32faa3d8901801",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1412949953580,
+      "stop" : 1412949953780,
+      "duration" : 200
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testing.company.net",
+    "children" : [ {
+      "name" : "32653@testing.company.net.Test worker(11)",
+      "children" : [ {
+        "name" : "open widget page",
+        "uid" : "d251f7c9987d0cd4",
+        "parentUid" : "934257d70c13f6304aa4a3774a26a8dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949039950,
+          "stop" : 1412949051895,
+          "duration" : 11945
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "934257d70c13f6304aa4a3774a26a8dd"
+    } ],
+    "uid" : "bb29072eed8589ca16da13bc28a400de"
+  }, {
+    "name" : "testPassed",
+    "uid" : "c60e84092b73df3f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1412949529363,
+      "stop" : 1412949549730,
+      "duration" : 20367
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "skippedSimpleTest",
+    "uid" : "23f7451bbdc8dcd3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1412949558831,
+      "stop" : 1412949558832,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

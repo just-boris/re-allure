@@ -1,0 +1,92 @@
+{
+  "uid" : "3d50ef5cea8f8ca9",
+  "name" : "testThree",
+  "fullName" : "my.company.AlwaysPassingTest.testThree",
+  "historyId" : "6206f694e7782fab07b604436317de65",
+  "time" : {
+    "start" : 1412949539364,
+    "stop" : 1412949539746,
+    "duration" : 382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SimpleStories"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "SuccessStory"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-3"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testThree"
+  }, {
+    "name" : "package",
+    "value" : "my.company.AlwaysPassingTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 3,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2d62252f00268cf1",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/2d62252f00268cf1",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539364,
+          "stop" : 1412949539746,
+          "duration" : 382
+        }
+      }, {
+        "uid" : "97d776008d46f1a7",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/97d776008d46f1a7",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1412949539364,
+          "stop" : 1412949539746,
+          "duration" : 382
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3d50ef5cea8f8ca9.json",
+  "parameterValues" : [ ]
+}

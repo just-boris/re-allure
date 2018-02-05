@@ -1,0 +1,117 @@
+{
+  "uid" : "23f7451bbdc8dcd3",
+  "name" : "skippedSimpleTest",
+  "fullName" : "my.company.SimpleTest.my.company.SimpleTest",
+  "historyId" : "48bc21772cdd3732986f5274bbfe8aaa",
+  "time" : {
+    "start" : 1412949558831,
+    "stop" : 1412949558832,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored (without reason)!",
+  "statusTrace" : "There are no stack trace",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored (without reason)!",
+    "statusTrace" : "There are no stack trace",
+    "steps" : [ {
+      "name" : "Future step",
+      "time" : {
+        "start" : 1412949558831,
+        "stop" : 1412949558832,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "statusMessage" : "There are no stack trace",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.SimpleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.SimpleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "my.company.SimpleTest"
+  }, {
+    "name" : "package",
+    "value" : "my.company.SimpleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Ignored tests",
+      "messageRegex" : ".*ignored.*",
+      "matchedStatuses" : [ "skipped" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "bd097ddebe95fdd3",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/bd097ddebe95fdd3",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored (without reason)!",
+        "time" : {
+          "start" : 1412949558831,
+          "stop" : 1412949558832,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "b0871f45403c9c01",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/b0871f45403c9c01",
+        "status" : "skipped",
+        "statusDetails" : "Test ignored (without reason)!",
+        "time" : {
+          "start" : 1412949558831,
+          "stop" : 1412949558832,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "23f7451bbdc8dcd3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,138 @@
+{
+  "uid" : "577e31f2c96a36c6",
+  "name" : "Wildcard search test",
+  "fullName" : "my.company.ScreenshotTest.wildcardSearch",
+  "historyId" : "298ff916f7c25573e5cf565cdf17a560",
+  "time" : {
+    "start" : 1412949551164,
+    "stop" : 1412949558737,
+    "duration" : 7573
+  },
+  "description" : "\n### H3\nafter this line we should collapse all of that\n\nвавыа\n#### H4\nThis testsuite has tests what *always are passing*\n\n* first\n* second\n    1. subsecind\n    1. subsubsecind\n* third\n\n### h3 *italic* **bold**\nallure core ![https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat](https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat)\n[repository](https://github.com/allure-framework/allure-core)\n\njust http://yandex.ru\n\n* first\n* second\n    1. subsecind\n    1. subsubsecind\n* third",
+  "descriptionHtml" : "<h3>H3</h3>\n<p>after this line we should collapse all of that</p>\n<p>вавыа</p>\n<h4>H4</h4>\n<p>This testsuite has tests what <em>always are passing</em></p>\n<ul>\n<li>first</li>\n<li>second\n<ol>\n<li>subsecind</li>\n<li>subsubsecind</li>\n</ol>\n</li>\n<li>third</li>\n</ul>\n<h3>h3 <em>italic</em> <strong>bold</strong></h3>\n<p>allure core <img src=\"https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat\" alt=\"https://img.shields.io/teamcity/http/teamcity.qatools.ru/s/allure_core_master_deploy.svg?style=flat\" />\n<a href=\"https://github.com/allure-framework/allure-core\">repository</a></p>\n<p>just http://yandex.ru</p>\n<ul>\n<li>first</li>\n<li>second\n<ol>\n<li>subsecind</li>\n<li>subsubsecind</li>\n</ol>\n</li>\n<li>third</li>\n</ul>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openMainPage",
+      "time" : {
+        "start" : 1412949554710,
+        "stop" : 1412949555508,
+        "duration" : 798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "search[qatools -yandex]",
+      "time" : {
+        "start" : 1412949555508,
+        "stop" : 1412949557726,
+        "duration" : 2218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5722ebe7ff4af5c",
+      "name" : "Page Screenshot",
+      "source" : "5722ebe7ff4af5c.png",
+      "type" : "image/png",
+      "size" : 165031
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Screenshot"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "WebdriverScreenshot"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-11"
+  }, {
+    "name" : "suite",
+    "value" : "Search tests"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.ScreenshotTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "wildcardSearch"
+  }, {
+    "name" : "package",
+    "value" : "my.company.ScreenshotTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "bd762e8f8ca3c6dd",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/bd762e8f8ca3c6dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949558737,
+          "duration" : 7573
+        }
+      }, {
+        "uid" : "31f86f9461f8988f",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/31f86f9461f8988f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1412949551164,
+          "stop" : 1412949558737,
+          "duration" : 7573
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "577e31f2c96a36c6.json",
+  "parameterValues" : [ ]
+}

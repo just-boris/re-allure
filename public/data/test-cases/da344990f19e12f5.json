@@ -1,0 +1,203 @@
+{
+  "uid" : "da344990f19e12f5",
+  "name" : "<script>3443</script>",
+  "fullName" : "my.company.ManyInfoTest.attachmentsTest",
+  "historyId" : "51eb908b0edc1c42ebe74516c45fb1e2",
+  "time" : {
+    "start" : 1412949539794,
+    "stop" : 1412949540559,
+    "duration" : 765
+  },
+  "description" : "Testsuite has testcases with many steps\n    and\nmany lines in description\n\nSingle-line description",
+  "descriptionHtml" : "<p>Testsuite has testcases with many steps\nand\nmany lines in description</p>\n<p>Single-line description</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+  "statusTrace" : "java.lang.AssertionError: This test should be failed\n                    at org.junit.Assert.fail(Assert.java:88)\n                    at org.junit.Assert.assertTrue(Assert.java:41)\n                    at my.company.steps.CommonSteps.makeThisTestFailed(CommonSteps.java:37)\n                    at my.company.ManyInfoTest.attachmentsTest(ManyInfoTest.java:35)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n                    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n                    at java.lang.reflect.Method.invoke(Method.java:601)\n                    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n                    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n                    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n                    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n                    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n                    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n                    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n                    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n                    at java.util.concurrent.FutureTask.run(FutureTask.java:166)\n                    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n                    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n                    at java.lang.Thread.run(Thread.java:722)\n                ",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+    "statusTrace" : "java.lang.AssertionError: This test should be failed\n                    at org.junit.Assert.fail(Assert.java:88)\n                    at org.junit.Assert.assertTrue(Assert.java:41)\n                    at my.company.steps.CommonSteps.makeThisTestFailed(CommonSteps.java:37)\n                    at my.company.ManyInfoTest.attachmentsTest(ManyInfoTest.java:35)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n                    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n                    at java.lang.reflect.Method.invoke(Method.java:601)\n                    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n                    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n                    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n                    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n                    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n                    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n                    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n                    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n                    at java.util.concurrent.FutureTask.run(FutureTask.java:166)\n                    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n                    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n                    at java.lang.Thread.run(Thread.java:722)\n                ",
+    "steps" : [ {
+      "name" : "Make this test failed",
+      "time" : {
+        "start" : 1412949540546,
+        "stop" : 1412949540559,
+        "duration" : 13
+      },
+      "status" : "failed",
+      "statusMessage" : "java.lang.AssertionError: This test should be failed\n                    at org.junit.Assert.fail(Assert.java:88)\n                    at org.junit.Assert.assertTrue(Assert.java:41)\n                    at my.company.steps.CommonSteps.makeThisTestFailed(CommonSteps.java:37)\n                    at my.company.ManyInfoTest.attachmentsTest(ManyInfoTest.java:35)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n                    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)\n                    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n                    at java.lang.reflect.Method.invoke(Method.java:601)\n                    at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)\n                    at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n                    at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)\n                    at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n                    at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)\n                    at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)\n                    at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n                    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n                    at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)\n                    at java.util.concurrent.FutureTask.run(FutureTask.java:166)\n                    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n                    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n                    at java.lang.Thread.run(Thread.java:722)\n                ",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f811bb29f1de89f",
+        "name" : "hey",
+        "source" : "8f811bb29f1de89f.txt",
+        "type" : "text/plain",
+        "size" : 4396
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3ee4058d1b118b75",
+      "name" : "JSON Attachment",
+      "source" : "3ee4058d1b118b75.json",
+      "type" : "application/json",
+      "size" : 3106
+    }, {
+      "uid" : "a7f6c3280826e04d",
+      "name" : "XML Attachment",
+      "source" : "a7f6c3280826e04d.xml",
+      "type" : "application/xml",
+      "size" : 65
+    }, {
+      "uid" : "3accf22952567c33",
+      "name" : "JPG Attachment",
+      "source" : "3accf22952567c33.png",
+      "type" : "image/png",
+      "size" : 33713
+    }, {
+      "uid" : "2a2895223b813bc6",
+      "name" : "CSV Attachment",
+      "source" : "2a2895223b813bc6.csv",
+      "type" : "text/csv",
+      "size" : 134
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Screenshot"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "my.cool.host.com"
+  }, {
+    "name" : "issue",
+    "value" : "JIRA-1"
+  }, {
+    "name" : "issue",
+    "value" : "JIRA-2"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "status_details",
+    "value" : "flaky"
+  }, {
+    "name" : "story",
+    "value" : "OtherScreenshot"
+  }, {
+    "name" : "testId",
+    "value" : "TMS-1"
+  }, {
+    "name" : "thread",
+    "value" : "pool-1-thread-5"
+  }, {
+    "name" : "suite",
+    "value" : "my.company.ManyInfoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "my.company.ManyInfoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "attachmentsTest"
+  }, {
+    "name" : "package",
+    "value" : "my.company.ManyInfoTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "JIRA-1",
+    "url" : "JIRA-1",
+    "type" : "issue"
+  }, {
+    "name" : "JIRA-2",
+    "url" : "JIRA-2",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-1",
+    "url" : "TMS-1",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "5f7904896b68d8f",
+      "status" : "failed",
+      "statusDetails" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+      "time" : {
+        "start" : 1412949529800,
+        "stop" : 1412949540559,
+        "duration" : 10759
+      }
+    }, {
+      "uid" : "568b0e48e63ec782",
+      "status" : "failed",
+      "statusDetails" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+      "time" : {
+        "start" : 1412949439801,
+        "stop" : 1412949540559,
+        "duration" : 100758
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ada594c5310ecb90",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/ada594c5310ecb90",
+        "status" : "failed",
+        "statusDetails" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+        "time" : {
+          "start" : 1412949539794,
+          "stop" : 1412949540559,
+          "duration" : 765
+        }
+      }, {
+        "uid" : "d2278b18b9dd44d",
+        "reportUrl" : "http://example.org/build#13/AllureReport/#testcase/d2278b18b9dd44d",
+        "status" : "failed",
+        "statusDetails" : "AlarmAssertionErrorAssertionErrorAssertionErrorAssertionErrorAssertionError: This test should be failed",
+        "time" : {
+          "start" : 1412949539794,
+          "stop" : 1412949540559,
+          "duration" : 765
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "da344990f19e12f5.json",
+  "parameterValues" : [ ]
+}

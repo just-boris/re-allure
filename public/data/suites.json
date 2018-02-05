@@ -1,0 +1,293 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Custom Widget page",
+    "children" : [ {
+      "name" : "open widget page",
+      "uid" : "d251f7c9987d0cd4",
+      "parentUid" : "195f684b9efefacfd69049419f325b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949039950,
+        "stop" : 1412949051895,
+        "duration" : 11945
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "195f684b9efefacfd69049419f325b4b"
+  }, {
+    "name" : "other.PassingTest",
+    "children" : [ {
+      "name" : "testPassed",
+      "uid" : "c60e84092b73df3f",
+      "parentUid" : "a11cce012c8cf191562fed3912a44cec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949529363,
+        "stop" : 1412949549730,
+        "duration" : 20367
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a11cce012c8cf191562fed3912a44cec"
+  }, {
+    "name" : "my.company.AlwaysPassingTest",
+    "children" : [ {
+      "name" : "testTwo",
+      "uid" : "2451bec2e53f2bc1",
+      "parentUid" : "bd5db97a62d5115f1a4b09738ac3c2b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949539363,
+        "stop" : 1412949539372,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testFour",
+      "uid" : "8cdc5d7c3d85ac83",
+      "parentUid" : "bd5db97a62d5115f1a4b09738ac3c2b1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1412949539363,
+        "stop" : 1412949539730,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "parameters" : [ null, null, "some-value", null ]
+    }, {
+      "name" : "testOne",
+      "uid" : "56832ba514dee178",
+      "parentUid" : "bd5db97a62d5115f1a4b09738ac3c2b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949539363,
+        "stop" : 1412949539715,
+        "duration" : 352
+      },
+      "flaky" : false,
+      "parameters" : [ "jkasdkjas jkfbasdjkfb jlasbdfj                  kajsndkjan JKDNJaksn da                  daskjdb jkansdkjn aklsNDK aklsd                  kajsBDKJanjks dnkjasnBJKD JKAsnd kla                  naskjdbkjs DJKASN KJDNKJ ANSKLD a                  dsdnfkjsdnJFKNASJKFNKJ SANDFJK ASDNLKFN ASKLDF                  AJKSDNLK Asjdklajskl djkasBFKJsdbnfkladsnklfmdskl fnasdmnf                  sDFKASBDKJFN AKJSDNFKJ ANSDJKFNJK SADNKLFNASDKL NFKJASDNF basdljfb asbdfmb asdljbfl sabdlnfblkasd blfkbasdlk fbknasdbkfl as", "jkasdbkfj asdkjlf jksadbfjnbsnfjksdfkl jdksfghjegkfn kasfm anskdfnkasf", "kjb jabsjfdb ajksnbdfk nasjkdfba kdsnbknasdn kjfsdlfn kjasd f nakls dfnasdf", "njkasndka bsanf asbdfbk jsadnf;kasnjdfb sadkfnkadjs nf;kas ndf;kjasdf", "kjnjdnfksdf sdf" ]
+    }, {
+      "name" : "testThree",
+      "uid" : "3d50ef5cea8f8ca9",
+      "parentUid" : "bd5db97a62d5115f1a4b09738ac3c2b1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1412949539364,
+        "stop" : 1412949539746,
+        "duration" : 382
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd5db97a62d5115f1a4b09738ac3c2b1"
+  }, {
+    "name" : "my.company.BeforeClassFailTest",
+    "children" : [ {
+      "name" : "BeforeClassFailTest",
+      "uid" : "fa8043e255c59a78",
+      "parentUid" : "a2f8fe9659080efae31fb7e748bc2a6c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1412949539770,
+        "stop" : 1412949539779,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a2f8fe9659080efae31fb7e748bc2a6c"
+  }, {
+    "name" : "my.company.ManyInfoTest",
+    "children" : [ {
+      "name" : "<script>3443</script>",
+      "uid" : "da344990f19e12f5",
+      "parentUid" : "fd187460706bbe14b8a84cc98c3fb991",
+      "status" : "failed",
+      "time" : {
+        "start" : 1412949539794,
+        "stop" : 1412949540559,
+        "duration" : 765
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test with long assertion text",
+      "uid" : "deef7310f64e7d28",
+      "parentUid" : "fd187460706bbe14b8a84cc98c3fb991",
+      "status" : "failed",
+      "time" : {
+        "start" : 1412949539800,
+        "stop" : 1412949540461,
+        "duration" : 661
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "lotOfStepsTest",
+      "uid" : "3770e01f9d11c5b1",
+      "parentUid" : "fd187460706bbe14b8a84cc98c3fb991",
+      "status" : "broken",
+      "time" : {
+        "start" : 1412949539801,
+        "stop" : 1412949539862,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd187460706bbe14b8a84cc98c3fb991"
+  }, {
+    "name" : "my.company.NonAsciiTest",
+    "children" : [ {
+      "name" : "test_pass",
+      "uid" : "97f7e472f27d22d7",
+      "parentUid" : "7adfcc91981e2dd4979bde5ed5d5c88b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949540562,
+        "stop" : 1412949540565,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_raise_cyrilling (невероятный тест кодировки!)",
+      "uid" : "12d83bcc9236ab05",
+      "parentUid" : "7adfcc91981e2dd4979bde5ed5d5c88b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1412949540562,
+        "stop" : 1412949540660,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7adfcc91981e2dd4979bde5ed5d5c88b"
+  }, {
+    "name" : "Search tests",
+    "children" : [ {
+      "name" : "Page loading test",
+      "uid" : "efe710d6fad373b0",
+      "parentUid" : "1bbdddb8b139ac506f125d271028f72a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1412949551164,
+        "stop" : 1412949556298,
+        "duration" : 5134
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Empty text search",
+      "uid" : "7367f4d51ddc2f6d",
+      "parentUid" : "1bbdddb8b139ac506f125d271028f72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949551164,
+        "stop" : 1412949558344,
+        "duration" : 7180
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Wildcard search test",
+      "uid" : "577e31f2c96a36c6",
+      "parentUid" : "1bbdddb8b139ac506f125d271028f72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949551164,
+        "stop" : 1412949558737,
+        "duration" : 7573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Usual search test",
+      "uid" : "c76b864a132e4092",
+      "parentUid" : "1bbdddb8b139ac506f125d271028f72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949551164,
+        "stop" : 1412949558826,
+        "duration" : 7662
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1bbdddb8b139ac506f125d271028f72a"
+  }, {
+    "name" : "my.company.SimpleTest",
+    "children" : [ {
+      "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+      "uid" : "f10c7471127fa4a9",
+      "parentUid" : "6d54093a99f573b6412619230cb11120",
+      "status" : "passed",
+      "time" : {
+        "start" : 1412949558829,
+        "stop" : 1412949558829,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "failedSimpleTest",
+      "uid" : "b42aed24ea7aff75",
+      "parentUid" : "6d54093a99f573b6412619230cb11120",
+      "status" : "failed",
+      "time" : {
+        "start" : 1412949558829,
+        "stop" : 1412949558830,
+        "duration" : 1
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "brokenSimpleTest",
+      "uid" : "4f054b3efb6f85ca",
+      "parentUid" : "6d54093a99f573b6412619230cb11120",
+      "status" : "broken",
+      "time" : {
+        "start" : 1412949558829,
+        "stop" : 1412949558832,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "skippedSimpleTest",
+      "uid" : "23f7451bbdc8dcd3",
+      "parentUid" : "6d54093a99f573b6412619230cb11120",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1412949558831,
+        "stop" : 1412949558832,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6d54093a99f573b6412619230cb11120"
+  }, {
+    "name" : "my.company.AllureMigrationTest",
+    "children" : [ {
+      "name" : "Test what do nothing and always passed right, but have a very long title, over 100 symbols, seriously",
+      "uid" : "de32faa3d8901801",
+      "parentUid" : "3ddc70f379862149e9ad2302bba91d82",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1412949953580,
+        "stop" : 1412949953780,
+        "duration" : 200
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ddc70f379862149e9ad2302bba91d82"
+  } ]
+}
