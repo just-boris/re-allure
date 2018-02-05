@@ -1,6 +1,6 @@
 @import "../../../../variables";
 
-.SuitesTree {
+.TreeNode {
   &__node {
     margin-left: 20px;
   }
@@ -14,6 +14,17 @@
     }
     &_active {
       background: $selected-color;
+    }
+  }
+  &__title {
+    cursor: pointer;
+    &::before {
+      color: #aaa;
+      content: "+";
+      padding-right: 10px;
+    }
+    &_expanded::before {
+      content: "-";
     }
   }
 }
