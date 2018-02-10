@@ -4,6 +4,11 @@ export interface AllureSuite {
     children?: Array<AllureSuite>;
 }
 
+export interface ProcessedAllureSuite extends AllureSuite {
+    children?: Array<ProcessedAllureSuite>;
+    childrenUids: Array<string>;
+}
+
 export interface AllureCase {
     uid: string;
     name: string;
