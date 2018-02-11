@@ -4,7 +4,7 @@ import TreeNode from "../TreeNode";
 
 interface Props {
   suite: ProcessedAllureSuite;
-  resultUid: string;
+  resultUid?: string;
 }
 
 const SuitesTree: React.SFC<Props> = ({ suite, resultUid }) => {

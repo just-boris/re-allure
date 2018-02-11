@@ -2,10 +2,11 @@ import "./styles.scss";
 import * as bem from "b_";
 import axios from "axios";
 import * as React from "react";
-import { Route } from "react-router";
+import { match, Route } from "react-router";
 import SuitesTree from "../SuitesTree";
 import SuiteResultView from "../SuiteResultView";
-import { AllureSuite, ProcessedAllureSuite } from "../../interfaces";
+import { ProcessedAllureSuite } from "../../interfaces";
+import { processSuite } from "./util";
 
 const b = bem.with("SuitesView");
 
@@ -13,23 +14,11 @@ interface SuitesViewState {
   rootSuite?: ProcessedAllureSuite;
 }
 
-interface SuitesViewProps {}
-
-function processSuite(suite: AllureSuite): ProcessedAllureSuite {
-  const result = suite as ProcessedAllureSuite;
-  result.childrenUids = [];
-  if (suite.children) {
-    suite.children.forEach(child => {
-      const processed = processSuite(child);
-      result.childrenUids.push(...processed.childrenUids);
-    });
-  } else {
-    result.childrenUids = [result.uid];
-  }
-  return result;
+interface SuitesViewProps {
+  match: match<{ resultUid?: string }>;
 }
 
-export default class SuitesView extends React.Component<SuitesViewProps, SuitesViewState> {
+export class SuitesView extends React.Component<SuitesViewProps, SuitesViewState> {
   state: SuitesViewState = {};
 
   async componentDidMount() {
@@ -41,29 +30,26 @@ export default class SuitesView extends React.Component<SuitesViewProps, SuitesV
 
   render() {
     const { rootSuite } = this.state;
+    const { resultUid } = this.props.match.params;
     if (!rootSuite) {
       return <div>Loading</div>;
     }
 
     return (
-      <Route
-        path="/suites/:resultUid?"
-        render={props => {
-          const { resultUid } = props.match.params;
-          return (
-            <div className={b()}>
-              <div className={b("panel")}>
-                <SuitesTree resultUid={resultUid} suite={rootSuite} />
-              </div>
-              {resultUid && (
-                <div className={b("panel")}>
-                  <SuiteResultView resultUid={resultUid} />
-                </div>
-              )}
-            </div>
-          );
-        }}
-      />
+      <div className={b()}>
+        <div className={b("panel")}>
+          <SuitesTree resultUid={resultUid} suite={rootSuite} />
+        </div>
+        {resultUid && (
+          <div className={b("panel")}>
+            <SuiteResultView resultUid={resultUid} />
+          </div>
+        )}
+      </div>
     );
   }
+}
+
+export default function SuitesViewRoute() {
+  return <Route path="/suites/:resultUid?" component={SuitesView} />;
 }

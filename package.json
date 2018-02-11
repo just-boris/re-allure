@@ -6,23 +6,30 @@
   "scripts": {
     "build": "webpack --optimize-minimize",
     "start": "webpack-dev-server --inline --hot --env.development",
-    "pretest": "eslint --ignore-path=.gitignore .",
     "test": "jest",
     "test:watch": "jest --colors --watch",
-    "coverage": "jest --coverage --collectCoverageFrom=src/main/javascript/**/*.js"
+    "coverage": "jest --coverage --collectCoverageFrom=src/**/*"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/enzyme": "^3.1.8",
+    "@types/jest": "^22.1.2",
+    "@types/moxios": "^0.4.8",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "case-sensitive-paths-webpack-plugin": "^2.1.1",
     "css-loader": "^0.28.9",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "extract-text-webpack-plugin": "^3.0.2",
+    "jest": "^22.2.2",
+    "moxios": "^0.4.0",
     "node-sass": "^4.7.2",
     "postcss-loader": "^2.1.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
+    "ts-jest": "^22.0.3",
     "ts-loader": "^3.4.0",
     "typescript": "^2.7.1",
     "webpack": "^3.10.0",
@@ -39,5 +46,17 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "setupFiles": ["<rootDir>/jest-util/__setup__"],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleNameMapper": {
+      "^.+\\.scss$": "<rootDir>/jest-util/__mocks__/scss-files.js"
+    },
+    "coveragePathIgnorePatterns": [".*\\.d\\.ts"],
+    "testMatch": ["**/*.test.(ts|tsx)"]
   }
 }

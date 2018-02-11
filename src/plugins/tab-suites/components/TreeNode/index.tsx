@@ -8,7 +8,7 @@ const b = bem.with("TreeNode");
 
 interface Props {
   suite: ProcessedAllureSuite;
-  resultUid: string;
+  resultUid?: string;
 }
 
 interface State {
@@ -20,7 +20,7 @@ export default class TreeNode extends React.Component<Props, State> {
     super(props);
     const { suite, resultUid } = props;
     this.state = {
-      expanded: suite.childrenUids ? suite.childrenUids.indexOf(resultUid) > -1 : false
+      expanded: suite.childrenUids && resultUid ? suite.childrenUids.indexOf(resultUid) > -1 : false
     };
   }
 
